@@ -1,0 +1,16 @@
+# Site settings
+title: Website Title
+email: website@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Awesome website description
+  here
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+port: 3000
+
+exclude: [node_modules, gulpfile.js, _js] # Ignore _js folder as well so we only reload on js file change
+
+# Build settings
+markdown: kramdown
